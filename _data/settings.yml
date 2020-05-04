@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
+title: Sam Mo Portfolio
 logo: logo.png
 email: steve.fruits@email.com
 phone: +880 2544 658 256
@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Sam <br> Content Writer
 
 social:
 - {icon: "ti-facebook", link: "#"}
