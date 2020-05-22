@@ -92,10 +92,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Article Writing, color: '#fdb157', value: '90%'}
+- {name: Website Content Creation, color: '#9473e6', value: '900%'}
+- {name: Sales & Email Copies, color: '#bdecf6', value: '80%'}
+- {name: E-books Writing, color: '#ffbcaa', value: '90%'}
 
 
 #-------------------------------
@@ -234,7 +234,7 @@ portfolio-items:
 
 #-------------------------------
 # Testimonials Section
-
+{% endcomment %}
 testimonial-items:
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
@@ -285,7 +285,7 @@ client-slider-items:
     
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
-
+{% comment %}
 #-------------------------------
 # Contact Section
 
