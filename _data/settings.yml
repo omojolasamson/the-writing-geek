@@ -234,7 +234,7 @@ portfolio-items:
 
 #-------------------------------
 # Testimonials Section
-{% endcomment %}
+{% comment %}
 testimonial-items:
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
@@ -285,7 +285,7 @@ client-slider-items:
     
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
-{% comment %}
+{% endcomment %}
 #-------------------------------
 # Contact Section
 
