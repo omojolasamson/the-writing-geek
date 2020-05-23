@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  A BEGINNER’S GUIDE TO KETO
+excerpt: The word "keto", is derived from "Ketogenic" or "Ketogenic Diet". It is a special diet regimen that emphasizes low-carbohydrate and high-fat.
 date:   2017-05-26 15:05:55 +0300
 image:  post-5.jpg
 author: uixgeek
