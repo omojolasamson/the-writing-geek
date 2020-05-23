@@ -93,9 +93,9 @@ team:
 skills-title: Skills
 skills:
 - {name: Article Writing, color: '#fdb157', value: '90%'}
-- {name: Website Content Creation, color: '#9473e6', value: '900%'}
+- {name: Website Content Creation, color: '#9473e6', value: '90%'}
 - {name: Sales & Email Copies, color: '#bdecf6', value: '80%'}
-- {name: E-books Writing, color: '#ffbcaa', value: '90%'}
+- {name: E-book Writing, color: '#ffbcaa', value: '90%'}
 
 
 #-------------------------------
@@ -103,133 +103,133 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Article Writing, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: ''}
+- {name: Website Content Creation, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: ''}
+- {name: Sales & Email Copies, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: ''}
 
 
 #-------------------------------
 # Education Section
 
-education-title: Education
-education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+# education-title: Education
+# education:
+# - {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+# - {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+# - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+# - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 
-#-------------------------------
-# Services Section
+# #-------------------------------
+# # Services Section
 
-services-title: Services
-services:
-- {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
+# services-title: Services
+# services:
+# - {
+#     name: UI Design,
+#     icon: ti-palette,
+#     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#     active: # Add true to select section
+#   }
+# - {
+#     name: UX Design,
+#     icon: ti-vector,
+#     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#     active: true # Add true to select section
+#   }
+# - {
+#     name: Interaction Design,
+#     icon: ti-panel,
+#     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#     active: # Add true to select section
+#   }
 
 
 
-#-------------------------------
-# Portfolio (Section and Page)
+# #-------------------------------
+# # Portfolio (Section and Page)
 
-# Portfolio Home Section
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+# # Portfolio Home Section
+# portfolio-home-items:
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-2.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-4.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-5.png"
+#     url: "#"
 
 
-# Portfolio Page
-portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
+# # Portfolio Page
+# portfolio-label:
+# - {
+#     title : "UI/UX Design",
+#     type : "design"
+#   }
+# - {
+#     title : "BRANDING",
+#     type : "branding"
+#   }
+# - {
+#     title : "ILLUSTRATION",
+#     type : "illustration"
+#   }
 
-portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-     - type: "design"
-     - type: "illustration"
+# portfolio-items:
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#      - type: "design"
+#      - type: "illustration"
       
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-2.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
       
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-6.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-8.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
       
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
+#   - image : "assets/images/portfolio/item-5.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
       
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "illustration"
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-7.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
 
 
 #-------------------------------
