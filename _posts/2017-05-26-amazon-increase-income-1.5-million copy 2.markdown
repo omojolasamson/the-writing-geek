@@ -39,13 +39,16 @@ Certain factors tend to go hand-in-hand with work-related stress. Some common wo
   <li>Conflicting demands or unclear performance expectations</li>
 </ul>
 
-Effects of Uncontrolled Stress
+<br />
+<br />
+
+<b>Effects of Uncontrolled Stress</b>
 
 Work-related stress doesn't just disappear when you head home for the day. When stress persists, it can take a toll on your health and well-being.
 
 A stressful work environment can contribute to problems such as headache, stomachache, sleep disturbances, short temper and difficulty concentrating. Chronic stress can result in anxiety, insomnia, high blood pressure and a weakened immune system. It can also contribute to health conditions such as depression, obesity and heart disease. Compounding the problem, people who experience excessive stress often deal with it in unhealthy ways such as overeating, eating unhealthy foods, smoking cigarettes or abusing drugs and alcohol.
 
-Taking Steps to Manage Stress
+<b>Taking Steps to Manage Stress</b>
 
 Track your stressors. Keep a journal for a week or two to identify which situations create the most stress and how you respond to them. Record your thoughts, feelings and information about the environment, including the people and circumstances involved, the physical setting and how you reacted. Did you raise your voice? Get a snack from the vending machine? Go for a walk? Taking notes can help you find patterns among your stressors and your reactions to them.
 
