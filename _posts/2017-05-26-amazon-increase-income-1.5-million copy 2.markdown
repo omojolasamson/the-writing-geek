@@ -20,20 +20,24 @@ Unfortunately, such long-term stress is all too common. In fact, APA’s annual 
 
 Certain factors tend to go hand-in-hand with work-related stress. Some common workplace stressors are:
 
-Low salaries
+<br />
+<br />
 
-Excessive workloads
+<ul>
+  <li>Low salaries</li>
 
-Few opportunities for growth or advancement
+  <li>Excessive workloads</li>
 
-Work that isn't engaging or challenging
+  <li>Few opportunities for growth or advancement</li>
 
-Lack of social support
+  <li>Work that isn't engaging or challenging</li>
 
-Not having enough control over job-related decisions
+  <li>Lack of social support</li>
 
-Conflicting demands or unclear performance expectations
+  <li>Not having enough control over job-related decisions</li>
 
+  <li>Conflicting demands or unclear performance expectations</li>
+</ul>
 
 Effects of Uncontrolled Stress
 
