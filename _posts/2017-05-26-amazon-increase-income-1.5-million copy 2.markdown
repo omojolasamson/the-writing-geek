@@ -4,10 +4,10 @@ title:  ARTICLE - Coping With Stress at Work
 excerpt: Everyone who has ever held a job has, at some point, felt the pressure of work-related stress. Any job can have stressful elements, even if you love what you do. 
 date:   2017-05-26 15:05:55 +0300
 image:  post-5.jpg
-author: uixgeek
+<!--author: uixgeek
 tags:   UX design
 ---
-![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
+![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}-->
 
 Everyone who has ever held a job has, at some point, felt the pressure of work-related stress. Any job can have stressful elements, even if you love what you do. In the short-term, you may experience pressure to meet a deadline or to fulfill a challenging obligation. But when work stress becomes chronic, it can be overwhelming — and harmful to both physical and emotional health.
 
