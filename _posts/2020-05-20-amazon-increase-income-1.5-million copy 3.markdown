@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  SALES COPY
+excerpt: STOP! Don’t buy a brand new countertop yet! Did you know that you can resurface your current countertop and make it look brand new? And that you can do it without compromising on quality?
+
 date:   2020-05-20 14:05:55 +0300
 image:  post-2.jpg
 ---
