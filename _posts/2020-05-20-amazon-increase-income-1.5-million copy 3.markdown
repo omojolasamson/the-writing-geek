@@ -10,7 +10,7 @@ tags:   UX design
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}-->
 
-<b>STOP! Don’t buy a brand new countertop yet!</b>
+<h1>STOP! Don’t buy a brand new countertop yet!</h1>
 
 Did you know that you can resurface your current countertop and make it look brand new? And that you can do it without compromising on quality?
 
