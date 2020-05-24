@@ -13,6 +13,9 @@ Everyone who has ever held a job has, at some point, felt the pressure of work-r
 
 Unfortunately, such long-term stress is all too common. In fact, APA’s annual Stress in America survey has consistently found that work is cited as a significant source of stress by a majority of Americans. You can't always avoid the tensions that occur on the job. Yet you can take steps to manage work-related stress.
 
+<br />
+<br />
+
 <b>Common Sources of Work Stress</b>
 
 Certain factors tend to go hand-in-hand with work-related stress. Some common workplace stressors are:
