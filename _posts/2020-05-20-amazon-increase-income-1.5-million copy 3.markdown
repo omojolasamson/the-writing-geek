@@ -10,7 +10,7 @@ tags:   UX design
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}-->
 
-STOP! Don’t buy a brand new countertop yet!
+<b>STOP! Don’t buy a brand new countertop yet!</b>
 
 Did you know that you can resurface your current countertop and make it look brand new? And that you can do it without compromising on quality?
 
@@ -31,8 +31,11 @@ The glossy finish. The marble colored highlights. The shiny, spectacular, mirror
 Big Savings just for you!
 
 We cater to all sizes of countertops, and we do it at an affordable price
+
 ●	Small-sized kitchen up to 40 square feet: $1,199
+
 ●	Medium-sized kitchen up to 60 square feet: $1,299
+
 ●	Large-sized kitchen up to 80 square feet: $1,499
 
 See why investing in a new countertop doesn’t make any sense?
@@ -40,13 +43,21 @@ See why investing in a new countertop doesn’t make any sense?
 The cost savings come from the fact that we are simply refinishing the countertops that you already have. A smart move! 
 
 We resurface all kinds of countertops! These include: 
+
 ●	Formica
+
 ●	Laminate
+
 ●	Quartz
+
 ●	Granite
+
 ●	Marble
+
 ●	Corian
+
 ●	Tile
+
 ●	And the list goes on… 
 
 Get Yours Now!
