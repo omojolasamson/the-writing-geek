@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Web Content
+excerpt: At Siberian Wellness, our sole goal is to provide the best health and wellness products to our esteemed customers. From cleansing teas and superfood supplements to botanical toothpastes, we offer everything you need to lead a balanced lifestyle.
 date:   2020-05-20 13:05:55 +0300
 image:  post-3.jpg
 ---
