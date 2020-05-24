@@ -2,7 +2,7 @@
 layout: post
 title:  ARTICLE - Coping With Stress at Work
 excerpt: Everyone who has ever held a job has, at some point, felt the pressure of work-related stress. Any job can have stressful elements, even if you love what you do. 
-date:   2017-05-26 15:05:55 +0300
+date:   2020-05-20 15:05:55 +0300
 image:  post-5.jpg
 ---
 
@@ -15,15 +15,10 @@ Everyone who has ever held a job has, at some point, felt the pressure of work-r
 
 Unfortunately, such long-term stress is all too common. In fact, APA’s annual Stress in America survey has consistently found that work is cited as a significant source of stress by a majority of Americans. You can't always avoid the tensions that occur on the job. Yet you can take steps to manage work-related stress.
 
-<br />
-<br />
 
 <b>Common Sources of Work Stress</b>
 
 Certain factors tend to go hand-in-hand with work-related stress. Some common workplace stressors are:
-
-<br />
-<br />
 
 <ul>
   <li>Low salaries</li>
@@ -40,9 +35,6 @@ Certain factors tend to go hand-in-hand with work-related stress. Some common wo
 
   <li>Conflicting demands or unclear performance expectations</li>
 </ul>
-
-<br />
-<br />
 
 <b>Effects of Uncontrolled Stress</b>
 
