@@ -3,7 +3,7 @@
 
 title: Sam Mo Portfolio
 logo: logo.png
-email: steve.fruits@email.com
+email: omojolasamsonade@gmail.com
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
 
@@ -11,7 +11,7 @@ menu:
 - {name: About, link: '#'}
 - {name: Blog, link: '#'}
 - {name: Portfolio, link: '#'}
-- {name: Contact, link: '#'}
+- {name: Contact, link: 'contact.html'}
 
 
 #-------------------------------
@@ -289,4 +289,4 @@ experience:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: omojolasamsonade@gmail.com
