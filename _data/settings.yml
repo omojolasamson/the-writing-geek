@@ -103,8 +103,8 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Article Writing, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: ''}
-- {name: Website Content Creation, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: ''}
+- {name: Article Writing, icon: 'icon-1.png', date: 'Jan 2007 - Present', organization: ''}
+- {name: Website Content Creation, icon: 'icon-2.png', date: 'Mar 2009 - Present', organization: ''}
 - {name: Sales & Email Copies, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: ''}
 
 
