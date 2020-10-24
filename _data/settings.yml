@@ -113,7 +113,7 @@ experience:
 
 education-title: Education
 education:
-- {name: Bachelor's degree in Electrical Engineering, date: '2018', organization: 'University of Ilorin'}
+- {name: Bachelor's degree in Electrical/Electronics Engineering, date: '2018', organization: 'University of Ilorin'}
 - {name: Secondary School Certificate, date: '2012', organization: 'Government Secondary School, Kubwa'}
 # - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 # - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
