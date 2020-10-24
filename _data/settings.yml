@@ -92,10 +92,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Article Writing, color: '#fdb157', value: '90%'}
-- {name: Website Content Creation, color: '#9473e6', value: '90%'}
-- {name: Sales & Email Copies, color: '#bdecf6', value: '80%'}
-- {name: E-book Writing, color: '#ffbcaa', value: '90%'}
+- {name: Backend Development, color: '#fdb157', value: '90%'}
+- {name: Frontend Development, color: '#9473e6', value: '70%'}
+- {name: Technical Writing, color: '#bdecf6', value: '80%'}
+- {name: Mobile App, color: '#ffbcaa', value: '80%'}
 
 
 #-------------------------------
@@ -103,9 +103,9 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Article Writing, icon: 'icon-1.png', date: 'Jan 2007 - Present', organization: ''}
-- {name: Website Content Creation, icon: 'icon-2.png', date: 'Mar 2009 - Present', organization: ''}
-- {name: Sales & Email Copies, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: ''}
+- {name: Software Developer Intern, icon: 'icon-1.png', date: 'Jan - Oct 2017', organization: 'Braintemple, Yaba, Lagos'}
+- {name: Junior Software Developer, icon: 'icon-2.png', date: 'June 2020 - Oct 2020', organization: 'Tech365, Ikeja, Lagos'}
+- {name: Freelancer, icon: 'icon-3.png', date: 'Sep 2018 - Present', organization: 'Fiverr'}
 
 
 #-------------------------------
