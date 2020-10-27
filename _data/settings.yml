@@ -171,6 +171,12 @@ portfolio-home-items:
   - image : "assets/images/portfolio/item-7.png"
     url: "http://homezoneglobal.herokuapp.com"
     
+
+    
+    
+    
+# Portfolio Contributed Section
+portfolio-contributed-items:
   - image : "assets/images/portfolio/item-8.png"
     url: "https://play.google.com/store/apps/details?id=buyer.emakity.com"
     
@@ -179,6 +185,15 @@ portfolio-home-items:
     
   - image : "assets/images/portfolio/item-10.png"
     url: "https://play.google.com/store/apps/details?id=storemanager.emkity.com"
+    
+  - image : "assets/images/portfolio/item-11.png"
+    url: "https://play.google.com/store/apps/details?id=delivery.emakity.com"
+    
+  - image : "assets/images/portfolio/item-12.png"
+    url: "https://play.google.com/store/apps/details?id=storemanager.emkity.com"
+
+    
+    
 
 # Portfolio Page
 portfolio-label:
