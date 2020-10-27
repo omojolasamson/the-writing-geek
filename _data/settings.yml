@@ -164,16 +164,21 @@ portfolio-home-items:
     
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
+  
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
 
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
 
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
+    title : "Website Development",
     type : "design"
   }
 - {
-    title : "BRANDING",
+    title : "Mobile Development",
     type : "branding"
   }
 - {
