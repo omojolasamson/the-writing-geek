@@ -151,25 +151,25 @@ education:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "learnfast24.herokuapp.com"
     
   - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "directory365.herokuapp.com"
     
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+    url: "jadastouch.herokuapp.com"
     
   - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+    url: "eppme.herokuapp.com"
     
   - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+    url: "buxhub.herokuapp.com"
   
   - image : "assets/images/portfolio/item-6.png"
-    url: "#"
+    url: "omojolasamson.github.io/sheddyportfolio"
 
   - image : "assets/images/portfolio/item-7.png"
-    url: "#"
+    url: "homezoneglobal.herokuapp.com"
 
 # Portfolio Page
 portfolio-label:
