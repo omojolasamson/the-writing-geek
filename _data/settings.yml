@@ -170,6 +170,15 @@ portfolio-home-items:
 
   - image : "assets/images/portfolio/item-7.png"
     url: "http://homezoneglobal.herokuapp.com"
+    
+  - image : "assets/images/portfolio/item-8.png"
+    url: "http://homezoneglobal.herokuapp.com"
+    
+  - image : "assets/images/portfolio/item-9.png"
+    url: "http://homezoneglobal.herokuapp.com"
+    
+  - image : "assets/images/portfolio/item-10.png"
+    url: "http://homezoneglobal.herokuapp.com"
 
 # Portfolio Page
 portfolio-label:
