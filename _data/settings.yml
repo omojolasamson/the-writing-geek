@@ -154,22 +154,22 @@ portfolio-home-items:
     url: "http://learnfast24.herokuapp.com"
     
   - image : "assets/images/portfolio/item-2.png"
-    url: "directory365.herokuapp.com"
+    url: "http://directory365.herokuapp.com"
     
   - image : "assets/images/portfolio/item-3.png"
-    url: "jadastouch.herokuapp.com"
+    url: "http://jadastouch.herokuapp.com"
     
   - image : "assets/images/portfolio/item-4.png"
-    url: "eppme.herokuapp.com"
+    url: "http://eppme.herokuapp.com"
     
   - image : "assets/images/portfolio/item-5.png"
-    url: "buxhub.herokuapp.com"
+    url: "http://buxhub.herokuapp.com"
   
   - image : "assets/images/portfolio/item-6.png"
-    url: "omojolasamson.github.io/sheddyportfolio"
+    url: "http://omojolasamson.github.io/sheddyportfolio"
 
   - image : "assets/images/portfolio/item-7.png"
-    url: "homezoneglobal.herokuapp.com"
+    url: "http://homezoneglobal.herokuapp.com"
 
 # Portfolio Page
 portfolio-label:
