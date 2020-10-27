@@ -151,7 +151,7 @@ education:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "learnfast24.herokuapp.com"
+    url: "[learnfast24.herokuapp.com]"
     
   - image : "assets/images/portfolio/item-2.png"
     url: "directory365.herokuapp.com"
