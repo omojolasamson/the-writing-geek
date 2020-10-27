@@ -172,13 +172,13 @@ portfolio-home-items:
     url: "http://homezoneglobal.herokuapp.com"
     
   - image : "assets/images/portfolio/item-8.png"
-    url: "http://homezoneglobal.herokuapp.com"
+    url: "https://play.google.com/store/apps/details?id=buyer.emakity.com"
     
   - image : "assets/images/portfolio/item-9.png"
-    url: "http://homezoneglobal.herokuapp.com"
+    url: "https://play.google.com/store/apps/details?id=delivery.emakity.com"
     
   - image : "assets/images/portfolio/item-10.png"
-    url: "http://homezoneglobal.herokuapp.com"
+    url: "https://play.google.com/store/apps/details?id=storemanager.emkity.com"
 
 # Portfolio Page
 portfolio-label:
