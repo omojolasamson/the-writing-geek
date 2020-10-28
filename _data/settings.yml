@@ -195,6 +195,17 @@ portfolio-contributed-items:
     
     
 
+# Portfolio webContributed Section
+portfolio-webcontributed-items:
+  - image : "assets/images/portfolio/item-11.png"
+    url: "https://hultprize-oncampus.org"
+    
+  - image : "assets/images/portfolio/item-12.png"
+    url: "https://www.emakity.com"
+
+    
+    
+
 # Portfolio Page
 portfolio-label:
 - {
