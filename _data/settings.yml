@@ -38,8 +38,8 @@ hero:
   hero-title: Hi! I’m <br> Sam <br> Software Developer
 
 social:
-- {icon: "ti-github", link: "#"}
-- {icon: "ti-linkedin", link: "#"}
+- {icon: "ti-github", link: "https://www.github.com/omojolasamson"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/samson-omojola-ba711056/"}
 # - {icon: "ti-dribbble", link: "#"}
 # - {icon: "ti-twitter", link: "#"}
 
