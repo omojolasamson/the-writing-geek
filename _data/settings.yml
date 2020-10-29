@@ -250,18 +250,18 @@ portfolio-items:
     portfolio-type:
       - type: "design"
       
-  - image : "assets/images/portfolio/item-5.png"
+  - image : "assets/images/portfolio/item-7.png"
     url: "#"
     portfolio-type:
       - type: "design"
       
-  - image : "assets/images/portfolio/item-6.png"
+  - image : "assets/images/portfolio/item-5.png"
     url: "#"
     portfolio-type:
       - type: "design"
 
       
-  - image : "assets/images/portfolio/item-7.png"
+  - image : "assets/images/portfolio/item-6.png"
     url: "#"
     portfolio-type:
       - type: "design"
