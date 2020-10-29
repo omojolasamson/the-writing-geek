@@ -38,10 +38,10 @@ hero:
   hero-title: Hi! I’m <br> Sam <br> Software Developer
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-github", link: "#"}
+- {icon: "ti-linkedin", link: "#"}
+# - {icon: "ti-dribbble", link: "#"}
+# - {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
