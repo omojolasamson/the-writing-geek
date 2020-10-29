@@ -235,17 +235,17 @@ portfolio-items:
     portfolio-type:
       - type: "design"
       
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-4.png"
     url: "#"
     portfolio-type:
       - type: "design"
