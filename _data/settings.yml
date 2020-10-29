@@ -221,64 +221,64 @@ portfolio-label:
 
 portfolio-items:
   - image : "assets/images/portfolio/item-11.png"
-    url: "#"
+    url: "https://hultprize-oncampus.org"
     portfolio-type:
      - type: "design"
       
   - image : "assets/images/portfolio/item-12.png"
-    url: "#"
+    url: "https://www.emakity.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "http://learnfast24.herokuapp.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+    url: "http://eppme.herokuapp.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "http://directory365.herokuapp.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+    url: "http://jadastouch.herokuapp.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-7.png"
-    url: "#"
+    url: "http://homezoneglobal.herokuapp.com"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+    url: "http://buxhub.herokuapp.com"
     portfolio-type:
       - type: "design"
 
       
   - image : "assets/images/portfolio/item-6.png"
-    url: "#"
+    url: "http://omojolasamson.github.io/sheddyportfolio"
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-8.png"
-    url: "#"
+    url: "https://play.google.com/store/apps/details?id=buyer.emakity.com"
     portfolio-type:
       - type: "branding"
       
   - image : "assets/images/portfolio/item-9.png"
-    url: "#"
+    url: "https://play.google.com/store/apps/details?id=delivery.emakity.com"
     portfolio-type:
       - type: "branding"
 
       
   - image : "assets/images/portfolio/item-10.png"
-    url: "#"
+    url: "https://play.google.com/store/apps/details?id=storemanager.emkity.com"
     portfolio-type:
       - type: "branding"
 
