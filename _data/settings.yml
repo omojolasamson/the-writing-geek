@@ -266,22 +266,21 @@ portfolio-items:
     portfolio-type:
       - type: "design"
       
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/portfolio/item-8.png"
     url: "#"
     portfolio-type:
       - type: "branding"
       
-  - image : "assets/images/portfolio/item-3.png"
+  - image : "assets/images/portfolio/item-9.png"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
       - type: "branding"
+
       
-  - image : "assets/images/portfolio/item-7.png"
+  - image : "assets/images/portfolio/item-10.png"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "branding"
 
 
 #-------------------------------
