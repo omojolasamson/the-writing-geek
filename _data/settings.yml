@@ -168,6 +168,9 @@ portfolio-home-items:
   - image : "assets/images/portfolio/Screenshot (240).png"
     url: "http://tronicmarket.herokuapp.com"
 
+  - image : "assets/images/portfolio/Screenshot (241).png"
+    url: "https://digitechnigeria.netlify.app/"
+
   - image : "assets/images/portfolio/item-7.png"
     url: "http://homezoneglobal.herokuapp.com"
     
@@ -259,10 +262,14 @@ portfolio-items:
     url: "http://buxhub.herokuapp.com"
     portfolio-type:
       - type: "design"
-
       
-  - image : "assets/images/portfolio/item-6.png"
-    url: "http://omojolasamson.github.io/sheddyportfolio"
+  - image : "assets/images/portfolio/Screenshot (241).png"
+    url: "https://digitechnigeria.netlify.app/"
+    portfolio-type:
+      - type: "design"
+      
+  - image : "assets/images/portfolio/Screenshot (240).png"
+    url: "http://tronicmarket.herokuapp.com"
     portfolio-type:
       - type: "design"
       
