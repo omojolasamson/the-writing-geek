@@ -94,8 +94,8 @@ skills-title: Skills
 skills:
 - {name: Backend Development, color: '#fdb157', value: '90%'}
 - {name: Frontend Development, color: '#9473e6', value: '85%'}
-- {name: Technical Writing, color: '#bdecf6', value: '80%'}
-- {name: Mobile App, color: '#ffbcaa', value: '80%'}
+- {name: Technical Writing, color: '#bdecf6', value: '90%'}
+- {name: Mobile App, color: '#ffbcaa', value: '90%'}
 
 
 #-------------------------------
@@ -105,7 +105,7 @@ experience-title: Experience
 experience:
 - {name: Software Developer Intern, icon: 'icon-1.png', date: 'Jan - Oct 2017', organization: 'Braintemple, Yaba, Lagos'}
 - {name: Freelancer, icon: 'icon-3.png', date: 'Oct 2017 - May 2020', organization: 'Fiverr'}
-- {name: Junior Software Developer, icon: 'icon-2.png', date: 'June 2020 - present', organization: 'Tech365, Ikeja, Lagos'}
+- {name: Software Developer, icon: 'icon-2.png', date: 'June 2020 - present', organization: 'Tech365, Ikeja, Lagos'}
 
 
 #-------------------------------
@@ -165,8 +165,8 @@ portfolio-home-items:
   - image : "assets/images/portfolio/item-5.png"
     url: "http://buxhub.herokuapp.com"
   
-  - image : "assets/images/portfolio/item-6.png"
-    url: "http://omojolasamson.github.io/sheddyportfolio"
+  - image : "assets/images/portfolio/Screenshot (240).png"
+    url: "http://tronicmarket.herokuapp.com"
 
   - image : "assets/images/portfolio/item-7.png"
     url: "http://homezoneglobal.herokuapp.com"
