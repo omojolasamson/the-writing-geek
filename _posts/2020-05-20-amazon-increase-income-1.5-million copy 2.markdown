@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ARTICLE - Coping With Stress at Work
+title:  ARTICLE - Coping With Stress at Workk
 excerpt: Everyone who has ever held a job has, at some point, felt the pressure of work-related stress. Any job can have stressful elements, even if you love what you do. 
 date:   2020-05-20 15:05:55 +0300
 image:  post-5.jpg
