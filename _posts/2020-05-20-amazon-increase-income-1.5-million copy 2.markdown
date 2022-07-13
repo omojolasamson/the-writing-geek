@@ -11,50 +11,166 @@ tags:   UX design
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}-->
 
-Everyone who has ever held a job has, at some point, felt the pressure of work-related stress. Any job can have stressful elements, even if you love what you do. In the short-term, you may experience pressure to meet a deadline or to fulfill a challenging obligation. But when work stress becomes chronic, it can be overwhelming — and harmful to both physical and emotional health.
+Tips for Upgrading Laravel Versions In Existing Apps
 
-Unfortunately, such long-term stress is all too common. In fact, APA’s annual Stress in America survey has consistently found that work is cited as a significant source of stress by a majority of Americans. You can't always avoid the tensions that occur on the job. Yet you can take steps to manage work-related stress.
+Introduction 
+
+There are a lot of benefits to keeping your apps updated and constantly upgrading to the most recent version of the stacks they utilize. It prevents vulnerabilities, enhances usability, and the most recent releases usually unlock a plethora of bug fixes and new features. So even if your app can still function properly with old code, whenever you can, it’s usually best to perform an upgrade.
+  
+In this article, I’ll be sharing with you tips on how to upgrade earlier Laravel versions to more recent releases in your existing apps. 
+
+What the Latest Version Offers
+
+For a long time, Laravel has been one of (if not) the most popular open-source PHP frameworks. It is flexible, scalable, and adaptive, and it has become the top-shelf choice for engineers and businesses working with PHP. The latest version of Laravel (Laravel 9) was made available in February 2022, and the next future release (Laravel 10) will come in February 2023. Laravel 9 comes with a number of new and interesting features. Some of the notable ones are:
+
+Symfony Mailer - Swift Mailer was used by earlier versions of Laravel to send outgoing emails. However, Symfony Mailer has been used to replace it since Swift Mailer is no longer maintained. Symfony Mailer is now used to enable email sending on Laravel apps via SMTP, Postmark, Mailgun, Amazon SES, and sendmail.
+
+If the application that you are trying to upgrade uses Swift Mailer, you may need to install some mailgun driver prerequisites, and rename some Swift methods to Symphony methods.
+
+Flysystem 3. x –: In Laravel apps, files are manipulated with the help of the Storage facade. And the Storage facade's whole filesystem interface is powered by Flysystem. In version 9, Laravel’s upstream Flysystem dependency has been upgraded from Flysystem 1.x to Flysystem 3.x. 
+
+Improved Eloquent Accessors/Mutators -: In laravel 9, by type-hinting a return type of `Illuminate\Database\Eloquent\Casts\Attribute`, you can define an accessor and a mutator using one, non-prefixed method, as opposed to earlier versions where you had to define multiple prefixed methods. This makes getting and setting attributes a lot easier.
+
+Implicit Route Bindings with enum -: Enums were finally introduced in PHP 8.1. Laravel 9, which uses PHP 8.1, supports using Enums in your route definitions. When Enums are used on a route, the route will be invoked only if its URL has a valid Enum value. If not, the route will return a 404 response.
+
+Controller Route Group -: Laravel 9’s Route::controller() method can be used to define a common controller for every route within a route group.
+
+Full Text Indexes/Where Clauses -: To generate full text indexes for MySQL or PostgreSQL database colums, the fullText method can be added to the definition.
 
 
-<b>Common Sources of Work Stress</b>
+    $table->text('post')->fullText();
 
-Certain factors tend to go hand-in-hand with work-related stress. Some common workplace stressors are:
+You can use the `whereFullText` and `orWhereFullText` methods to add “where” clauses to queries for fullText columns. When you run your app, Laravel will transform them into the proper SQL for your chosen database system. 
 
-<ul>
-  <li>Low salaries</li>
+Laravel Scout Database Engine -: If your application doesn’t deal with a huge load of data, Laravel’s Scout database engine should suffice for search features and serve as an alternative to dedicated search services like Algollia and MeiliSearch. 
 
-  <li>Excessive workloads</li>
+Rendering inline Blade Templates -: the `Blade` facade’s render method can be used to generate valid HTML from a raw Blade template string. 
 
-  <li>Few opportunities for growth or advancement</li>
 
-  <li>Work that isn't engaging or challenging</li>
+    use Illuminate\Support\Facades\Blade;
+     
+    return Blade::render('My name is {{ $name }}', ['name' => 'Samson Omojola']);
 
-  <li>Lack of social support</li>
+Above, we have Blade’s `render` method taking a Blade template string with which it will generate a corresponding HTML.
 
-  <li>Not having enough control over job-related decisions</li>
+Blade’s `renderComponent` method can be used to render a class component. The method will render any component instance that’s passed into it.
 
-  <li>Conflicting demands or unclear performance expectations</li>
-</ul>
 
-<b>Effects of Uncontrolled Stress</b>
+    use App\View\Components\NameComponent;
+     
+    return Blade::renderComponent(new NameComponent('Samson Omojola'));
 
-Work-related stress doesn't just disappear when you head home for the day. When stress persists, it can take a toll on your health and well-being.
+Slot Name Shortcut -: In laravel 9, you can now specify a slot’s name without using the `name` attribute. 
 
-A stressful work environment can contribute to problems such as headache, stomachache, sleep disturbances, short temper and difficulty concentrating. Chronic stress can result in anxiety, insomnia, high blood pressure and a weakened immune system. It can also contribute to health conditions such as depression, obesity and heart disease. Compounding the problem, people who experience excessive stress often deal with it in unhealthy ways such as overeating, eating unhealthy foods, smoking cigarettes or abusing drugs and alcohol.
+Before:
 
-<b>Taking Steps to Manage Stress</b>
+        <x-slot name="options">
+            <a>display</a>
+            <a>hide</a>
+        </x-slot>
 
-Track your stressors. Keep a journal for a week or two to identify which situations create the most stress and how you respond to them. Record your thoughts, feelings and information about the environment, including the people and circumstances involved, the physical setting and how you reacted. Did you raise your voice? Get a snack from the vending machine? Go for a walk? Taking notes can help you find patterns among your stressors and your reactions to them.
+Now:
 
-Develop healthy responses. Instead of attempting to fight stress with fast food or alcohol, do your best to make healthy choices when you feel the tension rise. Exercise is a great stress-buster. Yoga can be an excellent choice, but any form of physical activity is beneficial. Also make time for hobbies and favorite activities. Whether it's reading a novel, going to concerts or playing games with your family, make sure to set aside time for the things that bring you pleasure. Getting enough good-quality sleep is also important for effective stress management. Build healthy sleep habits by limiting your caffeine intake late in the day and minimizing stimulating activities, such as computer and television use, at night.
+    <x-slot:options>
+       <a>display</a>
+       <a>hide</a>
+    </x-slot>
 
-Establish boundaries. In today's digital world, it's easy to feel pressure to be available 24 hours a day. Establish some work-life boundaries for yourself. That might mean making a rule not to check email from home in the evening, or not answering the phone during dinner. Although people have different preferences when it comes to how much they blend their work and home life, creating some clear boundaries between these realms can reduce the potential for work-life conflict and the stress that goes with it.
+Laravel Breeze API & Next.js -: The laravel Breeze starter now has an API scaffolding mode and a complimentary Next.js frontend. This starter kit will enable you build Laravel applications that serve as a backend for a JavaScript frontend, using Laravel Sanctum authentication 
 
-Take time to recharge. To avoid the negative effects of chronic stress and burnout, we need time to replenish and return to our pre-stress level of functioning. This recovery process requires “switching off” from work by having periods of time when you are neither engaging in work-related activities, nor thinking about work. That's why it's critical that you disconnect from time to time, in a way that fits your needs and preferences. Don't let your vacation days go to waste. When possible, take time off to relax and unwind, so you come back to work feeling reinvigorated and ready to perform at your best. When you're not able to take time off, get a quick boost by turning off your smartphone and focusing your attention on non-work activities for a while.
+New Helpers -: two new helper functions have been introduced with Laravel 9,  `str` and `to_route`. The former returns a `Illuminate\Support\Stringable` instance for any string it’s given, while the latter helps you redirect to a named route from your controllers and routes.
 
-Learn how to relax. Techniques such as meditation, deep breathing exercises and mindfulness (a state in which you actively observe present experiences and thoughts without judging them) can help melt away stress. Start by taking a few minutes each day to focus on a simple activity like breathing, walking or enjoying a meal. The skill of being able to focus purposefully on a single activity without distraction will get stronger with practice and you'll find that you can apply it to many different aspects of your life.
 
-Talk to your supervisor. Employee health has been linked to productivity at work, so your boss has an incentive to create a work environment that promotes employee well-being. Start by having an open conversation with your supervisor. The purpose of this isn't to lay out a list of complaints, but rather to come up with an effective plan for managing the stressors you've identified, so you can perform at your best on the job. While some parts of the plan may be designed to help you improve your skills in areas such as time management, other elements might include identifying employer-sponsored wellness resources you can tap into, clarifying what's expected of you, getting necessary resources or support from colleagues, enriching your job to include more challenging or meaningful tasks, or making changes to your physical workspace to make it more comfortable and reduce strain.
+Manually Upgrading to Laravel 9
 
-Get some support. Accepting help from trusted friends and family members can improve your ability to manage stress. Your employer may also have stress management resources available through an employee assistance program (EAP), including online information, available counseling and referral to mental health professionals, if needed. If you continue to feel overwhelmed by work stress, you may want to talk to a psychologist, who can help you better manage stress and change unhealthy behavior.
+Step 1
+Before upgrading an application to Laravel 9, it is advisable to back up your existing code and the composer.json file. This can be done by simply creating a repository on GitHub and uploading your code to it. 
 
+Step 2 
+Changing PHP Version
+Laravel 9 requires a minimum PHP version of 8.0 due to it’s dependence on Symfony’s most recent version (v6.0), which depends on PHP 8.
+
+Navigate to your composer.json file and change your PHP version to 8.
+
+
+    "require": {
+        "php": "^8.0",
+    }
+
+Step 3
+Updating Depedencies
+In your composer.json file replace the following packages with their updated versions:
+
+
+    “laravel/framework” : “^9.0”, 
+    “nunomaduro/collision”: “^6.1”, 
+    “spatie/laravel-ignition”: “1.0” 
+
+Then run `composer update` to update the dependencies. 
+
+After composer performs an update, some of your third-party packages might throw errors, since they do not support Laravel 9. They’ll need to be updated to versions that do.
+
+For example, say you see an error like this:
+
+
+    spatie/laravel-backup requires illuminate/support ~6.0|~7.0|~8.0 -> satisfiable by illuminate/support[v6.0.0, ..., v6.20.16, v7.0.0, ..., v7.30.4, v8.0.0, ..., v8.28.1].
+    - Only one of these can be installed: illuminate/support[v4.0.0, ..., v4.2.17, v5.0.0, ..., v5.8.36, v6.0.0, ..., v6.20.16, v7.0.0, ..., v7.30.4, v8.0.0, ..., v8.28.1], laravel/framework[v9.0.-beta.1]. laravel/framework replaces illuminate/support and thus cannot coexist with it.
+    - Root composer.json requires laracasts/generators dev-master as 1.1.4 -> satisfiable by laracasts/generators[dev-master].
+
+
+You’ll need to navigate to the GitHub page or official website of spatie/laravel-backup and check if its latest version supports Laravel 9. If it does, then go to your composer.json and change the package’s version to the latest version.
+
+After updating all the outdated third-party packages, run `composer update` again.
+
+If you get any syntax error, go to Laravel’s official upgrade guide page and search for the necessary update relating to that error.
+
+
+USING LARAVEL SHIFT TO UPGRADE YOUR LARAVEL VERSION 
+
+Shift is an automated (paid) tool that can be used to automatically upgrade applications with older versions of Laravel to later versions.
+
+To use Shift, navigate to https://laravelshift.com in your browser.
+
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657665773733_Screenshot+49.png)
+
+
+On the homepage, click on the Run Shift button at the top right side of the page.
+
+You should see a list of the different kinds of upgrades that can be done and their corresponding prices. Decide which one you want and click the purchase option on it.
+
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657665890811_Screenshot+50.png)
+
+
+Next, select the option to sign in with your GitHub account and give Shift access to your repositories by clicking on ‘Authorize laravel-shift’. 
+
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657665980199_Screenshot+51.png)
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657666068072_Screenshot+52.png)
+
+
+On the next page, under Connection, ensure that the GitHub repo attached is your GitHub repo. Under REPOSITORY OR CLONE URL, enter the link to the specific repository you want to upgrade. Under Branch, enter the branch of the repository you want upgraded (e.g. main).
+
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657666165859_Screenshot+54.png)
+
+
+With the above information, Laravel Shift will create a pull request to that branch with the required changes for an upgrade. You can review the changes manually and decide what to accept. Next, click on "Checkout and run". On the next page, your credit card details will be requested. Enter your details and click on Purchase Shift.
+
+
+![](https://paper-attachments.dropbox.com/s_224901DE828DC09096687E31B4752CEF1A5208F9AD8C4B14BE5C541C6C3008CF_1657666259366_Screenshot+55.png)
+
+
+After making the purchase, you’ll be directed to a page that will show you the status of your request. 
+
+You should see the "Running" status for some seconds, indicating that Shift is upgrading your application. When it's complete, the Running status will change to a link to the pull request Shift created for you. Click on it. Under the ‘Files changed’ tab, you’ll see the updates Shift made.
+
+A downside of Shift is that it might be considered too expensive by some. It may also be considered slow, as, if you are upgrading from a very old version to the latest version, Shift doesn’t do one single upgrade. It proceeds step by step. e.g. from v7 to v9, Shift upgrades first to v8, and then to v9. However, if you consider the amount of effort it saves you, you may find that it’s worth it.
+
+
+Conclusion 
+
+You made it to the end of the post! We covered the new features the latest version of Laravel ships with, tips for manually upgrading the Laravel version of your existing application, and a tool (Laravel Shift) that automates the process for you.
+For more info on upgrading Laravel versions, you can check out the official documentation.
