@@ -12,30 +12,70 @@ tags:   UX design
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}-->
 
 
-HANDLING MARKDOWN IN PHP Introduction Markdown, initially written in Perl language, was created in 2004 by John Gruber. Markdown was created with the goal of simplifying internet writing. Markdown transforms to HTML effortlessly, relieving you from the inconvenience of writing HTML code. It enables us to write HTML faster and better. The idea around Markdown is that plain text documents must be readable and understandable without the interference of HTML tags, but rather a method to include various attributes for text such as images, paragraphs, line breaks, italics, lists, bold, links, etc. Markdown can be implemented on different platforms such as blogs, Email, Documentation, Note-taking applications e.t.c. The filename extension for Markdown is .md. Best markdown Libraries for PHP PHP has a variety of markdown libraries that offer different features, some of the most common markdown libraries in PHP are, 1 Parsedown 2 cebe/Markdown 3 PHP Markdown 4 Common Mark Each of the Markdowns listed above has unique features they offer. PARSEDOWN One of the most popular markdown libraries for PHP is Parsedown. it was created by Emabuil Rusev. It presently has over 14,000 stars on its GitHub repo. Parsedown has over 97 million installs on packagist. It is the most downloaded PHP markdown parser. Some of the features parse down boasts of are its Extensibility, No Dependencies, One File, Github Flavoured, and it is also the fastest markdown library with One of the easiest implementations. PHP MARKDOWN PHP Markdown currently has over 32 million installs on Packagist, it’s GitHub repo boast of over 3,000 stars. It was created in 2007 by Micheal Fortin. This markdown library package requires PHP 7.4 or later. It is derived from John Gruber's original Markdown.pl. CEBE/MARKDOWN Carsten Brandt created the cebe/markdown Markdown library. It is highly extensible and super fast. Because its method relies on parsing strings rather than the complex regular expressions employed in projects like PHP Markdown, it could be considered more user-friendly. cebe/markdown has more than 12 million downloads on packagist, over 900 stars on GitHub and it is adopted by more than 100 other projects, including Yii 2. COMMON MARK This markdown library was created by Colin O’Dell and several other contributors. It has over 98 million downloads on packagist and over 2,000 stars on GitHub. It is the most thorough markdown library for PHP. CommonMark supports the whole CommonMark spec as well as the entire GitHub-Flavored Markup spec. Additionally, the league/commonmark library has a command-line utility that converts Markdown text with a seamless CLI interface. Choosing the markdown to use for your project will depend on your preference and demands. Comparing the four markdowns highlighted above in terms of speed, Parsedown is the fastest markdown, followed by the PHP markdown, cebe/markdown, and lastly Common Mark. Without a doubt, Common Mark is the most extensible markdown, it offers a good extension system. Installation Using the composer is the preferred approach for installing the PHP Markdown package, to install the markdown of your choice, navigate to the composer and type composer require {package} For example composer require cebe/markdown to install cebe/markdown or composer require erusev/parsedown to install parsedown Handling headers Learning Markdown is quite simple. Creating a heading in markdown does not require you to know a complex syntax, you’ll be surprised how easy it is to create one, all you simply have to do is to add a hashtag (#) in front of the words, for example, (‘ # Creating Markdown’) will display as
+At Siberian Wellness, our sole goal is to provide the best health and wellness products to our esteemed customers. From cleansing teas and superfood supplements to botanical toothpastes, we offer everything you need to lead a balanced lifestyle. Whether you’re trying to improve your outward appearance or searching for the perfect stress reliever, take a look at our selection – we know you’ll love our wellness products as much as we do.
 
-Creating markdown
+100% Organic Beauty, Skin care, and Health/Wellness Products
+Find your strongest, most attractive and most confident self with our beauty teas, herbs, immunoboosters, and more. You can also personalize your routine with our supplements, scrubs, smoothies, and other self-care favorites.
 
-. The number of (#) hashtags will denote the level of header tag to use, for instance, A single hashtag (#) is equivalent to
+If you are looking for a way to make cleaner living a snap with reusable storage, eco-friendly cleaning products, you have come to the right place!
 
-Double hashtags (##) is equivalent to
-And four hashtags (####) are equivalent to
+At Siberian Wellness, our goal is to help you feel beautiful from the inside out with our line of teas, coffees, and elixirs. We want to help you achieve a brighter, healthier complexion with our range of beauty teas, formulated with potent herbs and supplements to restore and revitalize your skin. If you are looking for a mid-morning pick-me-up, then we have just the right products for you. Our variety of organic teas and delicious cold brew coffees will have you feeling strong and energized for the day ahead.
 
-and so on An example using parsedown will look like this, $Parsedown = new Parsedown(); Excho $ Parsedown -> text (‘# My first Markdown’); Which will result in
+Our goal is to help our customers live a healthy lifestyle. Try one of our products today and you’ll be glad you found us. Whether you are new in your quest to total wellbeing, or you’ve been on this track for a while, we welcome you here with open arms and a pat on the back.
 
-My first Markdown
+The supplements and vitamin products we provide are a fantastic daily addition to a natural diet. We wish we could sit with you and discuss our daily health and wellness rituals and routines over a cup of tea, because there’s just nothing we love more than hearing your positive stories of self-care. But since this is really more of a one-sided thing than a dialogue, we’ll just assume you’re there nodding along.
 
-Note: Always put a space between the hashtag and the words for compatibility sake. Handling Tables Handling tables in markdown is not a hard task, when working with tables, we make use of hyphens (---) and pipe symbol ( | ). We use the pipe symbol (|) to divide each column and three or more hyphens (---) to create the header for each column. For Example, you can create a file called table.md, in the file input the following syntax. | My Skills | Exp Years | | ----------- | -------------| | PHP | 3 years | |Laravel | 2 years | Ther parse the fie through your markdown with the following syntax (suppose you are using parsedown) Include (Parsedown.php) $table = file_get_content (‘Table.md’); $Parsedown = new Parsedown(); Echo $Parsedown -> text($Table); When parsed to HTML it will look like this
+Every single one of these products is packed with good stuff to naturally boost the health of your body, mind or spirit. Skin goodness is a huge part of your health. We have countless products that can help you take care of your skin. Take control of your life today by purchasing some of these life changing products, your inner beauty is up to you!
 
-| My Skills | Exp years |
-| --------- | --------- |
-| PHP       | 3 years   |
-| Laravel   | 2 years   |
+Make It Part of Your Routine
+Just take a minute – or two – to slow down and relax with our curated assortment of self-care products. From nourishing smoothie supplements to all-natural whitening toothpastes, Siberian Wellness’s self-care essentials are with you from your morning cup of coffee to your evening bath time ritual.
 
-Handling Links Links in markdown are denoted using the square bracket [ ] and parentheses ( ), the link text will be wrapped in the square bracket, while the link itself will be written in the parentheses. An example of a link in markdown can be, [link to my page](www.mypage.com] which when parsed to HTML will appear as link to my page Handling Images The syntax for Images in markdown is somewhat similar to that of links. The 0nlyl difference is that when defining images an exclamation mark comes before the square bracket. When creating an image, enclose the link in the parentheses and the alt text in the square bracket. Example ![A Pretty image of yourself]( https://image.shutterstock.com/image-photo/young-femalebeautiful-long-hair-260nw-1976765261.jpg) Handling List When working with links in markdown. You can use either asterisk (*) or plus sign (+) or a single hyphen (-), For example, a file with the following content; * First Item * Second Item * Third Item When the file is parsed by parsedown Include (Parsedown.php) $Mylist = file_get_content (‘Mylist.md’); $Parsedown = new Parsedown(); Echo $Parsedown -> text($Mylist); When rendered in HTML, it will appear as follows,
+They Serve as the Perfect Gift
+Do you need a last-minute gift? Our selection of self-care kits make thoughtful – and memorable – presents your loved ones are sure to love.
 
-- First Item
-- Second Item
-- Third Item
+Health and fitness are two significant areas in every person’s life. From improving your mental health and refining your overall well-being, to working in some rejuvenating self-care into your routine.
 
-Conclusion There are many advantages to using Markdown, and you can accomplish so much more with it. Markdown offers a lot of extended implementations that support formats such as footnotes, indented code blocks and so much more. Should you be interested in learning more about these Markdown implementations, you can check out the official documentation page.
+Doing your best to live a healthier life doesn’t have to be rocket science. We have so many organic products to make it fun and straightforward.
+
+OUR RANGE OF NATURAL BEAUTY PRODUCTS
+Welcome to our range of hundreds of natural and organic beauty products for all the family. We only use ingredients that are pure, safe and kind to your skin.
+
+Discover everything you need to know about a natural lifestyle, from our latest natural beauty products to organic skin care products.
+
+CERTIFIED ORGANIC QUALITY
+Siberian Wellness is an organic beauty brand with quality at heart. We are thrilled to let you know that all our products are;
+
+Natural
+
+Organic
+
+Cruelty-free
+
+Prepare your skin for the cold, harsh winters with our moisturizing creams! Our skincare formulas work. The formulas are specially formulated using potent herbs and life-giving plant waters to bring lasting results.
+
+Traditional Haircare
+At Siberian Wellness, our philosophy towards hair-care is centered around using the most nutrient-rich plant oils to nourish the scalp. We do not use mineral-oil, silicones or sulphates in our haircare products. Our Mission is to make beauty Inclusive, transparent & wholesome.
+
+What you stand to get from us:
+
+100% Natural products
+
+Full ingredient disclosure on labels
+
+Results-driven formulas
+
+Cruelty-free: We never have and will never test on animals. Our products are free from: Petrochemicals, Parabens, SLS/SLES PEG/PPG, Genetically Modified Organisms (GMO) and other harmful synthetic ingredients.
+
+At Siberian Wellness, we believe that choosing between a product that’s good for your skin and one which is safe not only for your health but also for the earth is a choice you should never have to make.
+
+Pick up any product from Siberian Wellness and you will notice that are no Sulphates, Parabens, GMOs, phthalates, petrochemicals, alcohol (ethanol), synthetic fragrances or colourants, bleaching agents and any other carcinogenic or harsh chemicals in it. In fact, if there is any controversy around an ingredient, instead of getting into a debate about whether it is harmful or otherwise, we will simply stop using it.
+
+ONE OF THE NATION’S MOST LOVED NATURAL & ORGANIC SKIN CARE BRAND
+We are proof that there is demand for effective organic skin care products. With high ethical standards, and unsurpassable diligence to our work, we’ve succeeded in building a loyal following for ourselves.
+
+First class customer service with a personal touch and outstanding products is what has brought Siberian Wellness close to the hearts of thousands of people. The countless testimonials from grateful customers who are relieved to have finally found skin care that works for them, are proof of the impact of Siberian Wellness’s commitment to effective organic solutions.
+
+Who We Are
+With a wealth of knowledge and experience, Siberian Wellness offers a complete range of certified organic products for all of the family. Siberian Wellness products are packed with up to 99% active natural and organic ingredients to protect, nourish, balance and, most importantly, respect your body.
+
+Although Siberian Wellness has come a long way from where it started, still care for every single one of our customers, offering the same personal service that we always have. Each and every day, we receive positive feedback from customers about our products.
