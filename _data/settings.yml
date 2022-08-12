@@ -104,8 +104,8 @@ skills:
 experience-title: Experience
 experience:
 - {name: Software Developer Intern, icon: 'icon-1.png', date: 'Jan - Oct 2017', organization: 'Braintemple, Yaba, Lagos'}
-- {name: Freelancer, icon: 'icon-3.png', date: 'Oct 2017 - May 2020', organization: 'Fiverr'}
-- {name: Software Developer, icon: 'icon-2.png', date: 'June 2020 - present', organization: 'Tech365, Ikeja, Lagos'}
+- {name: Freelancer, icon: 'icon-3.png', date: 'Oct 2017 - May 2019', organization: 'Fiverr'}
+- {name: Software Developer, icon: 'icon-2.png', date: 'Feb 2020 - present', organization: 'Microsoft, Lagos'}
 
 
 #-------------------------------
